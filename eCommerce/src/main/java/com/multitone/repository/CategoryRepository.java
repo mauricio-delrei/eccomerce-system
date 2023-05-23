@@ -1,0 +1,7 @@
+package com.multitone.repository;
+
+import com.multitone.model.Category;
+import org.springframework.data.repository.CrudRepository;
+
+public interface CategoryRepository extends CrudRepository<Category,Long> {
+}
